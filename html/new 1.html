@@ -1,0 +1,152 @@
+<?php
+	include 'config.php';
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monthly call report</title>
+	<link rel = "stylesheet" type = "text/css" href = "../CSS/sasitha styles.css"> 
+	
+	<script type="text/javascript">
+	
+	function showsrch1(val)
+	{
+		if(val == 1)
+		{
+		document.getElementById("datesrc").style.display = "none";
+		document.getElementById("timsrc").style.display = "block";
+		document.getElementById("timsub").style.display = "block";
+		}
+		
+		else if(val == 2)
+		{
+		document.getElementById("timsrc").style.display = "none";
+		document.getElementById("datesrc").style.display = "block";
+		document.getElementById("timsub").style.display = "block";
+		}
+		
+	}
+	</script>
+</head>
+<body>
+	
+	<div class = "navi">
+		<ul class = "navi">
+		
+			<li class = "navi"><a class="top" href = "homepage2.html">Home </a>  </li>
+			<li class = "navi"><a class = "top" href = "user profile2.html">My page</a></li>
+			<li class = "navi"><a class = "top" href = "select page.html">Login</a></li>
+			<li class = "navi"><a class= "top" href = "register.html">Register</a></li>
+		
+		
+		</ul>	
+		</div>
+		
+		<img  src = "../Images/logo.jpg" class = "logo" align = "left" width = "175px" height = "200px" >
+		<img src = "../Images/cover.png" class = "cover" align = "left" width = "1360px" height = "150px">
+	
+		
+		<ul class = "drpbar">
+			<div class = "drpdwn">
+				<li class = "drpbtn">Agent</li>
+				<div class = "dropcont">
+					<a href = "add agent.html">Add Agents</a>
+					<a href = "reports.html">Agent reports</a>
+					
+				</div>
+			
+			</div>
+			<div = class = "drpdwn">
+				<li class = "drpbtn">settings</li>
+				<div class = "dropcont">
+					<a href = "add agent.html">Add agents</a>
+					<a href = "about_us.html">Contact Us</a>
+				
+				</div>
+			
+			</div>
+			<div class = "drpdwn">
+				<li class = "drpbtn">Calls</li>
+				<div class = "dropcont">
+					<a href = "call page.html">Inbound dialing window</a>
+					<a href = "call page.html">Outbound dialing window</a>
+				</div>
+			
+			</div>
+			
+			<div class = "drpdwn">
+				<li class = "drpbtn">Accounts</li>
+				<div class= "dropcont">
+					<a href = "user profile2.html">View My Accounts</a>
+					<a href = "management window.html">Manager window</a>
+					<a href = "agents window.html">Agent window</a>
+					<a href = "homepage.html">Logout</a>
+				</div>
+			</div>
+			
+		</ul>
+	
+	<center>
+	
+	<div class = "srchsp">
+		<h1>Monthly Call Report</h1>
+		<center>
+			<h3>Select report : </h3>
+			<div class = "radsel">
+			<input " type = "radio" name = "solve" onchange = "showsrch1(1)"/> Time
+			<input  type = "radio" name = "solve" onchange = "showsrch1(2)"/> Date	
+			</div>
+		
+		<form class = "srchselfrm" method = "get" action = "#">
+		<div id = "timsrc">
+		<h3 id = "timsrctit">Select time range : </h3>
+			<div id = "id1">
+			Start time : <input type = "time" name = "sndsrch">  TO <input type = "time" name = "sndsrch2">
+			</div>
+		</div>
+		
+		<div id = "datesrc">
+		<h3 id = "timsrctit2">Select Date : </h3>
+			<div id = "id2">
+			Start time : <input type = "date" name = "sndsrch"> 
+			</div>
+		</div>
+		
+		
+		<button type = "submit" id = "timsub" value = "Search">Search</button>
+		</form>
+		</center>
+	</div>
+	
+	
+	<table  class = "mnthcll">
+		<tr>
+			<th>Precious<br>Queue</th>
+			<th>Agent Name</th>
+			<th>%Date Time</th>
+			<th>Attribute 1</th>
+			<th>Attribute 2</th>
+			<th>Handled</th>
+		</tr>
+		<tr>
+			<td>AQ2</td>
+			<td>Agent2,<br>Agent2</td>
+			<td>Apr29,2018<br>12:00PM</td>
+			<td>Service</td>
+			<td>Location</td>
+			<td>10</td>
+		</tr>
+		
+	</table>
+	</center>	
+</body>
+<div id = "footersrep">
+		<hr>
+		<p>	Copyright 2018 © TellEX. All Rights Reserved.<br>
+			<a href = "#">https://www.TellEX.lk</a>  |  <a href = "#"> info@tellex.lk</a> 
+		</p>
+	</div>
+</html>	
+
+</html>	
+</html>

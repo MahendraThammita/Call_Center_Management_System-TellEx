@@ -1,0 +1,894 @@
+body{
+	
+	background-image: url("../images/back.jpg");
+	background-size :cover;	
+}
+
+#contain
+{
+	min-height : 100%;
+	
+}
+#main
+{
+	overflow : auto;
+	padding:bottom;
+	
+}
+
+
+.logo
+{
+	display: block;
+	margin :0px;
+	padding: 0px;
+	top: 47px;
+	left: 0px;
+	position: absolute;
+
+	
+}
+.cover{
+	
+	display: block;
+	margin:0px;
+	padding: 0px;
+	top: 47px;
+	left:176px;
+	right:0px;
+	position: absolute;
+
+}
+div.navi
+{
+	position:absolute;
+	left:0px;
+	right: 0px;
+	top: 0px;
+}
+
+ul.navi
+{
+	background-color: #ced7ce;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0px;
+	top: 0;
+	position: stiky;
+	
+}
+ 
+li.navi
+{
+	float: left;
+	
+}
+li a.top
+{
+	color:black;
+	display: block;
+	padding: 6px 30px;
+	text-align: left;
+	text-decoration: none;
+}
+li a.top:hover
+{
+	background-color: white; 
+}
+
+.drpbtn 
+{
+	background-color:  none;
+	color: black;
+	padding: 14px 100px;
+	font-size: 20px;
+	border: 0px;
+	cursor: pointer;
+	list-style-type:none;
+	left: 0px;
+	position:relative;
+	
+	
+}
+
+ul.drpbar 
+{
+	list-style-type: none;
+	background-color :#8cffff;
+	top:180px;
+	left:176px;
+	right: 0px;
+	position:absolute;
+	
+	
+}
+.drpdwn
+{
+	left: 10px;
+	right: 0px;
+	position : auto;
+	display: inline-block;
+}
+.dropcont
+{
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	background-color: #bdffbd;
+	z-index: 1;
+	
+}
+.dropcont a
+{
+	color : green;
+	display : block;
+	padding: 12px 16px;
+	text-decoration: none;
+}
+
+.dropcont a:hover
+{
+	background-color :#a6ffff;
+}
+
+.drpdwn:hover .dropcont
+{
+	display : block;
+}
+
+.drpdwn:hover .drpbtn
+{
+	background-color : #00deff;
+}
+#footer 
+{
+	
+  
+   left: 0px;
+   width: 1540px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px;  
+   
+   
+}
+.habout
+{
+	position : absolute;
+	top : 780px;
+	left : 355px;
+	width : 1090px;
+	background-color: #60f7ed;
+	padding : 30px;
+	height : 250px;
+}
+
+
+
+#footer a:link
+{
+	text-decoration:none;
+}
+#footer a:hover
+{
+	color:white;
+}
+#footerh
+{
+	left: 0px;
+   width: 1700px;
+   top : 1800px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@--------------------------------------user profile---------------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+#agenpc
+{
+	position : absolute;
+	left : 40px;
+	top : 400px;
+	height : 300px;
+	width : 250px;
+}
+#protit
+{
+	font-size : 60px;
+	position :relative;
+	top : 300px;
+}
+#protit2
+{
+	font-size : 30px;
+	position :relative;
+	top : 600px;
+}
+#protit3
+{
+	font-size : 30px;
+	position :relative;
+	top : 300px;
+	left : 350px;
+}
+
+.statspro
+{
+	position : relative;
+	top : 50px;
+	left : 860px;
+	height : 600px;
+	width : 500px;
+	background-color : yellow;
+	border-radius : 30px;
+	opacity : 0.6;
+}
+.div4para
+{
+	position : absolute;
+	left : 900px;
+	top : 400px;
+	z-index : 1;
+	
+}
+#innerodisp
+{
+	font-size : 20px;
+}
+.inneredit
+{
+	position :relative;
+	left :40px;
+}
+.userbttns
+{
+	position : relative;
+	height : 60px;
+	width : 300px;
+	font-size : 30px;
+	padding : 20px;
+	background-color : yellow;
+}
+#userbttnsa
+{
+	
+}
+#userbttnsb
+{
+	position : relative;
+	top : 20px;
+	width : 360px;
+}
+#userbttnsc
+{
+	position : relative;
+	top : 40px;
+	width : 420px;
+}
+#footermah
+{
+	left: 0px;
+   width: 1700px;
+   top : 300px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@--------------------------------------agent window---------------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.fstdiv
+{
+	background-color :rgb(60, 179, 113);
+	width : 1400px;
+	height : 250px;
+	position : relative;
+	top : 300px;
+	left:60px;
+	bottom : 500px;
+	opacity : 0.6;
+	border-radius : 30px;
+	
+}
+#dial2
+{
+	position : relative;
+	left : 60px;
+	top:20px;
+	width: 120px;
+  height: 30px;
+  background-color: red;
+  
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.btn2clz
+{
+	width : 220px;
+	height : 50px;
+	background-color : hsl(0, 40%, 50%);
+  color: black; 
+  border: 2px solid #f44336;
+  color: black;
+  border: 2px solid #e7e7e7;
+  font-size:24px;
+}
+.btn2clz:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#mybtnid1
+{
+	position : relative;
+	top : 20px;
+	left : 70px;
+	
+}
+#mybtnid2
+{
+	position : relative;
+	top:20px;
+	left:100px;
+}
+#mybtnid3
+{
+	position: relative;
+	top:20px;
+	left:150px;
+}
+#mybtnid4
+{
+	position: relative;
+	top:20px;
+	left:200px;
+}
+#mybtnid5
+{
+	position: relative;
+	top:20px;
+	left:250px;
+}
+
+
+
+.scnddiv
+{
+	background-color : rgb(90, 147, 185);
+	width : 1400px;
+	height : 250px;
+	position : relative;
+	top : 300px;
+	left:60px;
+	bottom : 900px;
+	opacity : 0.8;
+	border-radius : 30px;
+}
+.btn3clz
+{
+	width : 220px;
+	height : 50px;
+	background-color : hsl(0, 100%, 90%);
+  color: black; 
+  border: 2px solid #f44336;
+  font-size:24px;
+}
+.btn3clz:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#dial3
+{position : relative;
+	left : 60px;
+	top:20px;
+	
+	width: 120px;
+  height: 30px;
+  background-color: red;
+  
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.thrddiv
+{
+	background-color : rgb(60, 179, 113);
+	width : 1400px;
+	height : 250px;
+	position : relative;
+	top : 300px;
+	left:60px;
+	bottom : 900px;
+	opacity : 0.8;
+	border-radius : 30px;
+}
+.btn4clz
+{
+	width : 220px;
+	height : 50px;
+	background-color : hsl(0, 100%, 90%);
+	color: black; 
+	border: 2px solid #f44336;
+	font-size:24px;
+	
+}
+.btn4clz:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#dial4
+{position : relative;
+	left : 60px;
+	top:20px;
+	
+	width: 150px;
+  height: 30px;
+  background-color: red;
+  
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+#footeragw
+{
+	left: 0px;
+   width: 1700px;
+   top : 500px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@--------------------------------------manager window---------------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.fstdiv
+{
+	background-color : rgb(180, 180, 180);
+	width : 1400px;
+	height : 250px;
+	position : relative;
+	top : 300px;
+	left:60px;
+	bottom : 500px;
+	opacity : 0.6;
+	border-radius : 30px;
+	
+}
+#dial2
+{
+	position : relative;
+	left : 60px;
+	top:20px;
+	width: 120px;
+  height: 30px;
+  background-color: red;
+  
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.btn2clz
+{
+	width : 220px;
+	height : 50px;
+	background-color : hsl(0, 40%, 50%);
+  color: black; 
+  border: 2px solid #f44336;
+  color: black;
+  border: 2px solid #e7e7e7;
+  font-size:24px;
+}
+.btn2clz:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#mybtnid1
+{
+	position : relative;
+	top : 20px;
+	left : 90px;
+	
+}
+#mybtnid2
+{
+	position : relative;
+	top:20px;
+	left:120px;
+}
+#mybtnid3
+{
+	position: relative;
+	top:20px;
+	left:150px;
+}
+#mybtnid4
+{
+	position: relative;
+	top:20px;
+	left:180px;
+}
+#mybtnid5
+{
+	position: relative;
+	top:20px;
+	left:200px;
+}
+.scnddiv
+{
+	background-color : #ff6347;
+	width : 1400px;
+	height : 250px;
+	position : relative;
+	top : 300px;
+	left:60px;
+	bottom : 900px;
+	opacity : 0.8;
+	border-radius : 30px;
+}
+.btn3clz
+{
+	width : 220px;
+	height : 50px;
+	background-color : hsl(0, 100%, 90%);
+  color: black; 
+  border: 2px solid #f44336;
+  font-size:24px;
+}
+.btn3clz:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#dial3
+{position : relative;
+	left : 60px;
+	top:20px;
+	
+	width: 120px;
+  height: 30px;
+  background-color: red;
+  
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+}
+#Queue
+{
+	font-size:30px;
+	position:relative;
+	left:60px;
+	top:2px;
+}
+.thrddiv
+{
+	background-color : rgb(180, 180, 180);
+	width : 1400px;
+	height : 250px;
+	position : relative;
+	top : 300px;
+	left:60px;
+	bottom : 900px;
+	opacity : 0.8;
+	border-radius : 30px;
+}
+.btn4clz
+{
+	width : 220px;
+	height : 50px;
+	background-color : hsl(0, 100%, 90%);
+	color: black; 
+	border: 2px solid #f44336;
+	font-size:24px;
+	
+}
+.btn4clz:hover {
+  background-color: #008CBA;
+  color: white;
+}
+#dial4
+{position : relative;
+	left : 60px;
+	top:20px;
+	
+	width: 150px;
+  height: 30px;
+  background-color: red;
+  
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+}
+#sta
+{
+	font-size:24px;
+	position:relative;
+	left:60px;
+	top:90px;	
+}
+
+a
+{
+	text-decoration : none;
+}
+
+.img1{
+
+	position:absolute;
+	top : 90px;
+	left : 1000px;
+	
+}
+.ftvdiv{
+	
+	width : 220px;
+	height : 50px;
+	background-color : hsl(0, 100%, 90%);
+	color: black; 
+	border: 2px solid #f44336;
+	font-size:24px;
+	
+}
+#divs8
+{
+	top : 90px;
+	left : 600px;
+}
+.b{
+	position :absolute;
+	top :105%;
+	left :70%;
+	padding :20px 50px;
+	background-color :hsl(0, 100%, 90%);
+	font-size:20px;
+	
+	
+}
+#footermanwin
+{
+	left: 0px;
+   width: 1700px;
+   top : 500px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+#agentfr{
+	
+	position : relative;
+	padding : 40px;
+	left : 30px;
+	top : -400px;
+	z-index : 1;
+	opacity : 1;
+}
+#agentfr img
+{
+	width : 200px;
+}
+
+#usaccset
+{
+	position : absolute;
+	left : 1000px;
+	top : 700px;
+	z-index : 1;
+	opacity : 1;
+	
+	
+}
+
+#usaccjob
+{
+	position : absolute;
+	left : 1000px;
+	top : 400px;
+	z-index : 2;
+	opacity : 1;
+}
+
+#agentfl
+{
+	position : relative;
+	top : 380px;
+	left : 65px;
+	z-index : 1;
+}
+
+#agentform input
+{
+	width : 250px;
+	height : 30px;
+	z-index : 5;
+	opacity : 5;
+	background-color : #fff4c7;
+	font-size : 25px;
+	font : bold;
+}
+#agentform
+{
+	position :relative;
+	background-color : white;
+	opacity : 0.7;
+	top : 260px;
+}
+
+#footerag1
+{
+	left: 0px;
+   width: 1700px;
+   top : 360px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+
+#ua04
+{
+	position : relative;
+	left : 55px;
+}
+#ua03
+{
+	position : relative;
+	left : 30px;
+}
+#ua02
+{
+	position : relative;
+	left : 27px;
+}
+#ua05
+{
+	position : relative;
+	left : 82px;
+}
+#ua06
+{
+	position : relative;
+	left : 48px;
+}
+#ua07
+{
+	position : relative;
+	left : 88px;
+}
+#ua09
+{
+	position : relative;
+	left : 22px;
+}
+#ua10
+{
+	position : relative;
+	left : 32px;
+}
+.uahead
+{
+	background-color : #ffdd78;
+	width : 800px;
+	height :300px;
+	z-index : 2;
+	position : absolute;
+	top : 350px;
+	left : 615px;
+	border-radius : 30px;
+}
+#sessdis
+{
+	position : absolute;
+	left : 1150px;
+	top : -10px;
+	font-size : 17px;
+	
+}

@@ -1,0 +1,447 @@
+
+
+body , html{
+	
+	background-image: url("../images/back.jpg");
+	width: 1440px;
+	height : 100%;
+	
+	
+	
+	
+	
+}
+
+#contain
+{
+	min-height : 100%;
+	
+}
+#main
+{
+	overflow : auto;
+	padding:bottom;
+	
+}
+
+
+.logo
+{
+	display: block;
+	margin :0px;
+	padding: 0px;
+	top: 47px;
+	left: 0px;
+	position: absolute;
+
+	
+}
+.cover{
+	
+	display: block;
+	margin:0px;
+	padding: 0px;
+	top: 47px;
+	left:176px;
+	right:0px;
+	position: absolute;
+
+}
+div.navi
+{
+	position:absolute;
+	left:0px;
+	right: 0px;
+	top: 0px;
+}
+
+ul.navi
+{
+	background-color: #ced7ce;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0px;
+	top: 0;
+	position: stiky;
+	
+}
+ 
+li.navi
+{
+	float: left;
+	
+}
+li a.top
+{
+	color:black;
+	display: block;
+	padding: 6px 30px;
+	text-align: left;
+	text-decoration: none;
+}
+li a.top:hover
+{
+	background-color: white; 
+}
+
+.drpbtn 
+{
+	background-color:  none;
+	color: black;
+	padding: 14px 100px;
+	font-size: 20px;
+	border: 0px;
+	cursor: pointer;
+	list-style-type:none;
+	left: 0px;
+	position:relative;
+	
+	
+}
+
+ul.drpbar 
+{
+	list-style-type: none;
+	background-color :#8cffff;
+	top:180px;
+	left:176px;
+	right: 0px;
+	position:absolute;
+	
+	
+}
+.drpdwn
+{
+	left: 10px;
+	right: 0px;
+	position : auto;
+	display: inline-block;
+}
+.dropcont
+{
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	background-color: #bdffbd;
+	z-index: 1;
+	
+}
+.dropcont a
+{
+	color : green;
+	display : block;
+	padding: 12px 16px;
+	text-decoration: none;
+}
+
+.dropcont a:hover
+{
+	background-color :#a6ffff;
+}
+
+.drpdwn:hover .dropcont
+{
+	display : block;
+}
+
+.drpdwn:hover .drpbtn
+{
+	background-color : #00deff;
+}
+#footer 
+{
+	
+  
+   left: 0px;
+   width: 1540px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px;  
+   
+   
+}
+.habout
+{
+	position : absolute;
+	top : 780px;
+	left : 355px;
+	width : 1090px;
+	background-color: #60f7ed;
+	padding : 30px;
+	height : 250px;
+}
+
+.habout p
+{
+	position : relative;
+	left : 70px;
+	width : 980px;
+	font-size : 17px;
+}
+
+.lstrip
+{
+	position : absolute;
+	width : 70px;
+	background-color : #cbd4cd;
+	height : 100%;
+	top : 0px;
+	left : 0px;
+	opacity : 0.6;
+	
+	
+}
+
+
+#footer a:link
+{
+	text-decoration:none;
+}
+#footer a:hover
+{
+	color:white;
+}
+#footerh
+{
+	left: 0px;
+   width: 1540px;
+   top : 600px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+
+/*.sldshw
+{
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+	left : 0;
+	
+}*/
+
+
+div.slid
+{
+	top: 300px;
+	bottom: 40px;
+	left:25px;
+	right:25px;
+	position:relative;
+}
+div.change
+{
+	display: block;
+	position : absolute;
+	
+	
+	
+}
+
+.prv
+{
+	left:0px;
+	position: absolute;
+	top: 200pX;
+	cursor: pointer;
+	color: gray;
+	padding: 20px;
+	transition:0.6s ease;
+	
+	
+}
+.next
+{
+	right : -30px;
+	position: absolute;
+	top: 200px;
+	cursor: pointer;
+	color: gray;
+	padding: 20px;
+	transition:0.6s ease;
+	
+}
+
+.prv:hover ,.next:hover
+{
+	background-color: #e0e0d1;
+}
+
+.best
+{
+	background-color: yellow;
+	background-image : url("../images/note2.jpg");
+	position: relative;
+	top: 1200px;
+	height: 400px;
+	width : 300px;
+	left: 140px;
+	text-align : center;
+	border-radius: 50px;
+}
+.texth h2
+{
+	background-color: #ecff80;
+	height: 50px;
+	
+	opacity: 0.7;
+	
+}
+.texth li
+{
+	
+	font-size : 18px;
+	padding : 10px;
+	
+}
+
+.events
+{
+	background-color: yellow;
+	background-image : url("../images/note2.jpg");
+	
+	position: relative;
+	text-align: center;
+	top: 780px;
+	height: 400px;
+	width : 300px;
+	left: 590px;
+	border-radius: 50px;
+
+	
+}
+
+
+.notice
+{
+	background-color: yellow;
+	background-image : url("../images/note2.jpg");
+	position: relative;
+	text-align: center;
+	top: 360;
+	height: 400px;
+	width : 300px;
+	left: 1040px;
+	border-radius: 50px;
+	
+}
+
+.viimg
+{
+	
+	width : 300px;
+	z-index : 1;
+	position : absolute;
+	top : 840px;
+	height : 150px;
+	left : 20px;
+	
+}
+
+.logimg
+{
+	width : 400px;
+	height : 650px;
+	position : relative;
+	top : 400px;
+	left : 80px;
+}
+.logdiv
+{
+	width : 900px;
+	height : 650px;
+	position : relative;
+	top : -250px;
+	left : 480px;
+	background-color : pink;
+	opacity : 0.5;
+	
+}
+#mantitl
+{
+	position : relative;
+	left : 650px;
+	top : -900px;
+	z-index: 1;
+	font-size : 60px;
+}
+.logform
+{
+	position : absolute;
+	top : 560px;
+	left : 800px;
+	z-index : 1;
+}
+#loggettex
+{
+	width : 300px;
+	height : 55px;
+	border : none;
+	font-size : 20px;
+	background-color : #c4fff7;
+}
+#footermlog
+{
+   left: 0px;
+   width: 1540px;
+   top : 1200px;
+   text-align : bottom;
+   position: absolute;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+#logmbtn 
+{
+	position : relative;
+	top : 30px;
+	left : 60px;
+	width : 200px;
+	height : 50px;
+	border-radius : 20px;
+	background-color : #4cfc75;
+	font-size : 30px;
+	
+}
+#logreg
+{
+	position : relative;
+	top : 60px;
+	left : 10px;
+	width : 300px;
+	height : 50px;
+	border-radius : 20px;
+	background-color : #4cfc75;
+	font-size : 30px;
+	
+	
+}
+#agtitl
+{
+	position : relative;
+	left : 770px;
+	top : -900px;
+	z-index: 1;
+	font-size : 60px;
+}
+#sessdis
+{
+	position : absolute;
+	left : 1150px;
+	top : -10px;
+	font-size : 17px;
+	
+}

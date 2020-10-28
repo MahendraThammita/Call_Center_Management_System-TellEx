@@ -1,0 +1,552 @@
+body , html{
+	
+	background-image: url("../images/back.jpg");
+	width: 1440px;
+	height : 100%;
+	
+	
+	
+	
+	
+}
+
+
+.logo
+{
+	display: block;
+	margin :0px;
+	padding: 0px;
+	top: 47px;
+	left: 0px;
+	position: absolute;
+
+	
+}
+.cover{
+	
+	display: block;
+	margin:0px;
+	padding: 0px;
+	top: 47px;
+	left:176px;
+	right:0px;
+	position: absolute;
+
+}
+div.navi
+{
+	position:absolute;
+	left:0px;
+	right: 0px;
+	top: 0px;
+}
+
+ul.navi
+{
+	background-color: #ced7ce;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0px;
+	top: 0;
+	position: stiky;
+	
+}
+ 
+li.navi
+{
+	float: left;
+	
+}
+li a.top
+{
+	color:black;
+	display: block;
+	padding: 6px 30px;
+	text-align: left;
+	text-decoration: none;
+}
+li a.top:hover
+{
+	background-color: white; 
+}
+
+.drpbtn 
+{
+	background-color:  none;
+	color: black;
+	padding: 14px 100px;
+	font-size: 20px;
+	border: 0px;
+	cursor: pointer;
+	list-style-type:none;
+	left: 0px;
+	position:relative;
+	
+	
+}
+
+ul.drpbar 
+{
+	list-style-type: none;
+	background-color :#8cffff;
+	top:180px;
+	left:176px;
+	right: 0px;
+	position:absolute;
+	
+	
+}
+.drpdwn
+{
+	left: 10px;
+	right: 0px;
+	position : auto;
+	display: inline-block;
+}
+.dropcont
+{
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	background-color: #bdffbd;
+	z-index: 1;
+	
+}
+.dropcont a
+{
+	color : green;
+	display : block;
+	padding: 12px 16px;
+	text-decoration: none;
+}
+
+.dropcont a:hover
+{
+	background-color :#a6ffff;
+}
+
+.drpdwn:hover .dropcont
+{
+	display : block;
+}
+
+.drpdwn:hover .drpbtn
+{
+	background-color : #00deff;
+}
+#footernwct 
+{
+	
+  
+   left: 0px;
+   width: 1540px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+	top : 1300px;   
+   
+   
+}
+body
+	{
+	
+	color:black;
+	background-color:gray;
+	}
+.box-container {
+	background-image: url("../images/photo01.jpg");
+            min-width: 100%;
+            min-height: 200px;
+            -webkit-box-shadow: -1px 7px 10px 2px rgba(250, 250, 250, 1);
+            -moz-box-shadow: -1px 7px 10px 2px rgba(250, 250, 250, 1);
+            box-shadow: -1px 7px 10px 2px rgba(250, 250, 250, 1);
+            padding: 10px;
+			position : absolute;
+			top : 300px;
+			
+        }
+
+        .box-header {
+            color: #919191;
+            border-bottom: 1px solid #ededed;
+            padding: 15px;
+			color:black;
+        }
+        
+        .box-header h2{
+            display: inline
+			color:black;
+        }
+
+
+        .col {
+
+            min-height: 150px;
+            width: 50%;
+
+            float: left;
+        }
+
+        .box-inner-container {
+            padding: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .box-inner-container:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .input {
+
+            vertical-align: middle;
+            margin: 5px 10px 5px 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+			background-color:blue;
+
+
+        }
+        
+        .button{
+            color: black;
+            background-color: blue;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 5px
+        }
+        
+        .header-bt{
+            color: white;
+            float: right;
+            clear: both;
+             background-color: #55acf7;
+        }
+
+        .form-group {
+			
+		}
+		
+		
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@----------view all contacts page------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@22*/
+
+        .box-container1 {
+            min-width: 100%;
+            min-height: 200px;
+            -webkit-box-shadow: -1px 7px 10px 2px rgba(250, 250, 250, 1);
+            -moz-box-shadow: -1px 7px 10px 2px rgba(250, 250, 250, 1);
+            box-shadow: -1px 7px 10px 2px rgba(250, 250, 250, 1);
+            padding: 10px;
+			position: relative;
+			top : 350px;
+        }
+
+        .box-header1 {
+            color: #919191;
+            border-bottom: 1px solid #ededed;
+            padding: 15px;
+        }
+
+        .box-header1 h2 {
+            display: inline
+        }
+
+
+    
+        
+           .box-inner-container1 {
+            padding: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .box-inner-container1:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        
+        
+        
+            .table1 {
+            border: 1px solid #dedede;
+                 border-collapse: collapse;
+    border-spacing: 0;
+                color: #5c5c5c;
+        }
+        
+        
+       
+        
+        .table1 th,td{
+            background-color: #ffffff;
+            border-right: 1px solid #dedede;
+            padding:5px 10px;
+        }
+        
+        
+         .table1 th{
+            background-color: #ffffff;
+             color: #625e5e;
+        }
+
+        .table1 tr{
+            border-bottom: 1px solid #dedede;
+        }
+#footeralct 
+{
+	
+  
+   left: 0px;
+   width: 1540px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+	top : 700px;   
+   
+   
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@----------------contacts page------------------------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+/*main content*/
+.main-content2 {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.19);
+    margin: 10px 5px;
+	position : relative;
+	top : 400px;
+}
+
+.buttons2{
+    display: flex;
+
+}
+
+.button-xl{
+    width: auto;
+    height: 100;
+    background-color: #30A9DE;
+    color: white;
+    margin: 10px;
+    border-radius: 5px
+}
+
+.button-xl .text2{
+    height: 45%;
+    padding: 15px 20px;
+    font-size: 20px
+}
+
+.button-xl .link2 {
+    border-top: 1px solid rgba(196, 196, 196, 0.46);
+    padding: 2px
+}
+
+
+.button-xl .link2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.button-xl.blue{
+    background-color: #30A9DE;
+    
+}
+
+.button-xl.green{
+    background-color: #2EC4B6;
+}
+#footercts 
+{
+	
+  
+   left: 0px;
+   width: 1540px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+	top : 700px;   
+   
+   
+}
+
+
+
+/*view all contacts*/
+.box-container {
+            min-width: 100%;
+            min-height: 200px;
+
+        }
+
+        .box-header {
+            color: #ffffff;
+            border-bottom: 1px solid #ffffff;
+            padding: 15px;
+        }
+
+        .box-header h2 {
+            display: inline
+        }
+
+
+    
+        
+           .box-inner-container {
+            padding: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .box-inner-container:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        
+        
+        
+            .table {
+            border: 1px solid #dedede;
+                 border-collapse: collapse;
+    border-spacing: 0;
+                color: #5c5c5c;
+        }
+        
+        
+       
+        
+        .table th,td{
+            background-color: #ffffff;
+            border-right: 1px solid #dedede;
+            padding:5px 10px;
+        }
+        
+        
+         .table th{
+            background-color: #ffffff;
+             color: #625e5e;
+        }
+
+        .table tr{
+            border-bottom: 1px solid #dedede;
+        }
+
+	
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@-------------------------------------------------about us page----------------------------*/
+
+.foter
+{
+   position: fixed;
+   bottom: 0;
+   color: white;
+   text-align: center;
+   
+   
+}
+
+
+.name
+{
+	background-color:lightgray;
+	width:500px;
+	height:480px;
+	padding:8px opx;
+	position:absolute;
+	left:400px;
+	top:700px;
+	bottom:600px;
+	position:absolute;
+	opacity:0.9;
+}
+#name1
+{
+	left:20px;
+	background-color:yellow;
+	width:50%;
+	 padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+
+}
+.button {
+  background-color: yellow;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:8px;
+}
+
+.desatell
+{
+	position : relative;
+	top : 200px;
+	width : 800px;
+	height : 800px;
+	left : 600px;
+}
+
+.abutimg
+{
+	position : absolute ;
+	top : 300px;
+	left : 50px;
+	height : 300px;
+	width : 399px;
+}
+#footreabou
+{
+	
+  
+   left: 0px;
+   width: 1540px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+	top : 300px;   
+   
+   
+}
+#sessdis
+{
+	position : absolute;
+	left : 1150px;
+	top : -10px;
+	font-size : 17px;
+	
+}
+		

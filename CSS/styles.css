@@ -1,0 +1,1008 @@
+
+
+body {
+	
+	background-image: url("../images/back.jpg");
+	height : 250%;
+	background-size : cover;
+	
+}
+
+#contain
+{
+	min-height : 100%;
+	
+}
+#main
+{
+	overflow : auto;
+	padding:bottom;
+	
+}
+
+
+.logo
+{
+	display: block;
+	margin :0px;
+	padding: 0px;
+	top: 47px;
+	left: 0px;
+	position: absolute;
+
+	
+}
+.cover{
+	
+	display: block;
+	margin:0px;
+	padding: 0px;
+	top: 47px;
+	left:176px;
+	right:0px;
+	position: absolute;
+
+}
+div.navi
+{
+	position:absolute;
+	left:0px;
+	right: 0px;
+	top: 0px;
+}
+
+ul.navi
+{
+	background-color: #ced7ce;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 0px;
+	top: 0;
+	position: stiky;
+	
+}
+ 
+li.navi
+{
+	float: left;
+	
+}
+li a.top
+{
+	color:black;
+	display: block;
+	padding: 6px 30px;
+	text-align: left;
+	text-decoration: none;
+}
+li a.top:hover
+{
+	background-color: white; 
+}
+
+.drpbtn 
+{
+	background-color:  none;
+	color: black;
+	padding: 14px 100px;
+	font-size: 20px;
+	border: 0px;
+	cursor: pointer;
+	list-style-type:none;
+	left: 0px;
+	position:relative;
+	
+	
+}
+
+ul.drpbar 
+{
+	list-style-type: none;
+	background-color :#8cffff;
+	top:180px;
+	left:176px;
+	right: 0px;
+	position:absolute;
+	
+	
+}
+.drpdwn
+{
+	left: 10px;
+	right: 0px;
+	position : auto;
+	display: inline-block;
+}
+.dropcont
+{
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	background-color: #bdffbd;
+	z-index: 1;
+	
+}
+.dropcont a
+{
+	color : green;
+	display : block;
+	padding: 12px 16px;
+	text-decoration: none;
+}
+
+.dropcont a:hover
+{
+	background-color :#a6ffff;
+}
+
+.drpdwn:hover .dropcont
+{
+	display : block;
+}
+
+.drpdwn:hover .drpbtn
+{
+	background-color : #00deff;
+}
+#footer 
+{
+	
+  
+   left: 0px;
+   width: 1540px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px;  
+   
+   
+}
+.habout
+{
+	position : absolute;
+	top : 780px;
+	left : 355px;
+	width : 1090px;
+	background-color: #60f7ed;
+	padding : 30px;
+	height : 250px;
+}
+
+.habout p
+{
+	position : relative;
+	left : 70px;
+	width : 980px;
+	font-size : 17px;
+}
+
+.lstrip
+{
+	position : absolute;
+	width : 70px;
+	background-color : #cbd4cd;
+	height : 100%;
+	top : 0px;
+	left : 0px;
+	opacity : 0.6;
+	
+	
+}
+
+
+#footer a:link
+{
+	text-decoration:none;
+}
+#footer a:hover
+{
+	color:white;
+}
+#footerh
+{
+	left: 0px;
+   width: 1540px;
+   top : 600px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+#sessdis
+{
+	position : absolute;
+	left : 1150px;
+	top : -10px;
+	font-size : 17px;
+	
+}
+
+/*.sldshw
+{
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+	left : 0;
+	
+}*/
+
+
+div.slid
+{
+	top: 300px;
+	bottom: 40px;
+	left:25px;
+	right:25px;
+	position:relative;
+}
+div.change
+{
+	display: block;
+	position : absolute;
+	
+	
+	
+}
+
+.prv
+{
+	left:0px;
+	position: absolute;
+	top: 200pX;
+	cursor: pointer;
+	color: gray;
+	padding: 20px;
+	transition:0.6s ease;
+	
+	
+}
+.next
+{
+	right : -30px;
+	position: absolute;
+	top: 200px;
+	cursor: pointer;
+	color: gray;
+	padding: 20px;
+	transition:0.6s ease;
+	
+}
+
+.prv:hover ,.next:hover
+{
+	background-color: #e0e0d1;
+}
+
+.best
+{
+	background-color: yellow;
+	background-image : url("../images/note2.jpg");
+	position: relative;
+	top: 1200px;
+	height: 400px;
+	width : 300px;
+	left: 140px;
+	text-align : center;
+	border-radius: 50px;
+}
+.texth h2
+{
+	background-color: #ecff80;
+	height: 50px;
+	
+	opacity: 0.7;
+	
+}
+.texth li
+{
+	
+	font-size : 18px;
+	padding : 10px;
+	
+}
+
+.events
+{
+	background-color: yellow;
+	background-image : url("../images/note2.jpg");
+	
+	position: relative;
+	text-align: center;
+	top: 780px;
+	height: 400px;
+	width : 300px;
+	left: 590px;
+	border-radius: 50px;
+
+	
+}
+
+
+.notice
+{
+	background-color: yellow;
+	background-image : url("../images/note2.jpg");
+	position: relative;
+	text-align: center;
+	top: 360;
+	height: 400px;
+	width : 300px;
+	left: 1040px;
+	border-radius: 50px;
+	
+}
+
+.viimg
+{
+	
+	width : 300px;
+	z-index : 1;
+	position : absolute;
+	top : 840px;
+	height : 150px;
+	left : 20px;
+	
+}
+
+.best ul ,.events ul ,.notice ol
+{
+	
+}
+
+/*----------------------------------------------------------------calling window page--------------------------------------------------------------------------------------*/
+
+.dial
+{
+	background-color: #ffd294;
+	position: relative;
+	height:1500px;
+	left: -8px;
+	top: 240px;
+	width: 450px;
+}
+.cimg
+{
+	position: relative;
+	height: 40px;
+	width:40px;
+	top: 200px;
+	left:30px;
+	cursor:pointer;
+	padding:40px;
+	border-radius : 30px;
+}
+.cimg:hover
+{
+	opacity:0.3;
+	background-color : yellow;
+}
+#answer1:hover
+{
+	background-color: green;
+}
+#cutcll:hover
+{
+	background-color: red;
+}
+.numb
+{
+	position: relative;
+	height:300px;
+	left:60px;
+	top:200px;
+}
+
+#getdtl
+{
+	left : 1500px;
+	top : 1000px;
+	
+}
+
+#numsub2
+{
+	position : absolute;
+	left: 800px;
+	top : -250px;
+	width : 300px;
+	height : 60px;
+	font-size : 25px;
+	border-radius : 10px;
+	background-color : #6a80f7;
+	Display : none;
+}
+
+
+
+.dispnumb
+{
+	position:relative;
+	height: 100px;
+	top:250px;
+	left:60px;
+	width: 300px;
+	background-color: #e3e1e3;
+	font-size: 50px;
+	padding-top : 10px;
+	padding-bottom : 10px;
+	padding : 10px;
+	
+}
+
+.padnum
+{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.dialformfir
+{
+	position : relative;
+	background-color : #6af7f5;
+	bottom : 1200px;
+	height : 1400px;
+	left : 500px;
+	width : 900px;
+	font-size : 23px;
+	border-radius : 40px;
+	display : none;
+	
+}
+.dialform
+{
+	position : relative;
+	background-color : #6af7f5;
+	bottom : 1200px;
+	height : 1400px;
+	left : 500px;
+	width : 900px;
+	font-size : 23px;
+	border-radius : 40px;
+	display : block;
+	
+}
+.formin
+{
+	position : relative;
+	left : 80px;
+	border-radius : 10px;
+	
+}
+
+#unmtchbtn
+{
+	position : relative;
+	left : 80px;
+	border-radius : 10px;
+}
+
+
+input[type = text]
+{
+	height : 40px;
+	background-color: #63ff97;
+	font-size: 20px;
+}
+input[type = phone]
+{
+	height : 40px;
+	background-color: #63ff97;
+	font-size: 20px;
+	
+}
+input[type = email]
+{
+	height : 40px;
+	width : 300px;
+	background-color: #63ff97;font-size: 20px;
+	
+}
+#submbtn
+{
+	
+	width : 300px;
+	height : 40px;
+	font-size : 30px;
+	background-color : yellow;
+	
+	
+	
+	
+}
+
+hr.dialform
+{
+	height : 100px;
+	color: purple;
+}
+
+#footerc
+{
+   left: 0px;
+   width: 1540px;
+   top : 2000px;
+   text-align : bottom;
+   position: absolute;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+
+.dialptab
+{
+	position : relative;
+	top : 70px;
+	left : 50px;
+	z-index : 1;
+}
+
+.npadbtn
+{
+	padding : 30px;
+	font-size : 30px;
+	border-radius : 50px;
+}
+.dialptab td
+{
+	padding : 10px;
+}
+.padbak
+{
+	position : absolute;
+	width : 360px;
+	height : 600px;
+	background-color : blue;
+	top : 480px;
+	left : 30px;
+	border-radius : 30px;
+	background-image : url("../images/numbak1.jpg");
+}
+
+
+#custrght
+{
+	position : relative;
+	left : 500px;
+	top : -365px;
+	z-index : 1;
+}
+
+#custbtm
+{
+	position : relative;
+	top : -300px;
+	left : 200px;
+	z-index : 1;
+}
+.custop input[type = text] ,input[type = phone] , h2
+{
+	z-index : 1;
+}
+
+
+
+#custdec
+{
+	position:absolute;
+	height : 416px;
+	width : 644px;
+	background-image : url("../images/gif3.gif");
+	top : 250px;
+	left : 120px;
+	border-radius : 30px;
+	opacity : 0.6;
+	
+	
+}
+/*nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
+.inqtype
+{
+	height : 30px;
+	font-size: 20px;
+	background-color : #63ff97;
+}
+.calldet
+{
+	position : relative;
+	top : -350px;
+	
+}
+.formin1
+{
+	position : relative;
+	border-radius : 5px;
+	background-color : #63ff97;
+	width : 130px;
+	
+}
+
+#ans11
+{
+	position:relative;
+	left : 65px;
+	top : 10px;
+}
+#end11
+{
+	position:relative;
+	left : 200px;
+	top : -23px;
+}
+#hol11
+{
+	position:relative;
+	left : 320px;
+	top : -60px;
+}
+
+#rec11
+{
+	position:relative;
+	left : 65px;
+	top : 30px;
+}
+#trn11
+{
+	position:relative;
+	left : 185px;
+	top : -5px;
+}
+
+#getfrm
+{
+	position : relative;
+	top : -190px;
+}
+
+
+
+/*-------------------------------------------------------------------add agent page---------------------------------------------------------------------------------------------------*/
+
+#agentfrm
+{
+	position : absolute;
+	top : 300px;
+	background-color : white;
+	border-radius : 40px;
+	opacity : 0.7;
+	width : 1200px;
+	left : 150px;
+	font-size : 17px;
+	height : 1000px;
+	
+	
+}
+
+#agentfrm input
+{
+	
+	border-radius : 10px;
+	
+}
+
+#footerag
+{
+	left: 0px;
+   width: 1540px;
+   top : 1650px;
+   text-align : bottom;
+   position: relative;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+#agentfr
+{
+	position : absolute;
+	left : 720px;
+	
+}
+#agentfl
+{
+	position : absolute;
+	top : 300px;
+	left : 130px
+}
+.typeopt
+{
+	position : relative;
+	left : 90px;
+	
+}
+
+.agentfrmbtn input[type = submit]
+{
+	background-color : #99ffb1;
+	padding : 10px;
+	opacity : 10;
+	position : absolute;
+	bottom : 50px;
+	left : 650px;
+	top : 200px;
+	width : 150px;
+	height : 50px;
+	font-size : 20px;
+	border-radius : 20px;
+	
+}
+.agentfrmbtn input[type = button]
+{
+	background-color : #99ffb1;
+	padding : 10px;
+	opacity : 10;
+	position : absolute;
+	bottom : 50px;
+	top : 200px;
+	left : 820px;
+	width : 150px;
+	height : 50px;
+	font-size : 20px;
+	border-radius : 20px;
+	
+}
+#agentfrm input[type = text]
+{
+	height : 40px;
+	background-color: #adffff;
+	font-size: 20px;
+	border-bottom-style : solid;
+}
+#agentfrm input[type = phone]
+{
+	height : 40px;
+	background-color: #adffff;
+	font-size: 20px;
+	
+}
+#agentfrm input[type = email]
+{
+	height : 40px;
+	width : 300px;
+	background-color: #adffff;
+	font-size: 20px;
+}
+
+.agenl input[type = checkbox]
+{
+	
+	font-size: 25px;
+	color : blue;
+	
+}
+#agidbox
+{
+	position : relative;
+	left :16px;
+}
+#agidbox1
+{
+	position : relative;
+	left :38px;
+}
+#agidbox2
+{
+	position : relative;
+	left :29px;
+}
+#agidbox3
+{
+	position : relative;
+	left :36px;
+}
+#agidbox5
+{
+	position : relative;
+	left :30px;
+}
+
+.agflat
+{
+	position : absolute;
+	top : 600px;
+	width : 1200px;
+}
+
+#agfid1
+{
+	position : absolute;
+	left : 140px;
+}
+#newqu
+{
+	width : 80px;
+}
+#newquex
+{
+	width : 180px;
+}
+#agfid2
+{
+	position : absolute;
+	left : 360px;
+}
+#agfid3
+{
+	position : absolute;
+	left : 720px;
+	top : 87px;
+}
+.agtst
+{
+	width : 80px;
+	height : 30px;
+	background-color: #adffff;
+	border-radius : 10px;
+	border-width : 2px;
+}
+#agfid4
+{
+	position : absolute;
+	left : 140px;
+	top : 150px;
+}
+
+#agfid5
+{
+	position : absolute;
+	left : 360px;
+	top : 150px;
+}
+#pid1
+{
+	position : absolute;
+	left : 60px;
+	top : -17px;
+}
+#pid2
+{
+	position : absolute;
+	left : 60px;
+	top : -17px;
+}
+/*---------------------------------------------------------------------Display page-----------------------------------------------------------------------------------*/
+
+#selcat
+{
+	position : absolute;
+	width : 1350px;
+	height : 150px;
+	background-color : #b6ffb3;
+	top : 300px;
+	left : 80px;
+	border-radius : 30px;
+	font-size : 30px;
+	font-style : bold;
+	opacity : 0.7; 
+}
+.selcatbtn
+{
+	width : 230px;
+	height : 50px;
+	background-color : #fae8ff;
+	border-radius : 20px;
+	font-size : 20px;
+	
+	
+}
+#dnotice1
+{
+	position : relative;
+	top : 50px;
+	left : 40px;
+}
+#dnotice2
+{
+	position : relative;
+	top : 50px;
+	left : 80px;
+}
+#dnotice3
+{
+	position : relative;
+	top : 50px;
+	left : 130px;
+	width : 350px;
+}
+
+
+/*---------------------------------------------------------select page-------------------------------------------------------------------------------------------*/
+
+.felem
+{
+	width : 1300px;
+	height : 240px;
+	background-color : #ffadfc;
+	position : relative;
+	top : 500px;
+	left : 100px;
+	border-radius : 30px;
+	opacity : 0.7;
+}
+.selem
+{
+	width : 1300px;
+	height : 240px;
+	background-color : #a8feff;
+	position : relative;
+	top : 550px;
+	left : 100px;
+	border-radius : 30px;
+	opacity : 0.7;
+}
+
+#felmimg
+{
+	width : 1050px;
+	height : 180px;
+	position : relative;
+	border-radius : 30px;
+	left : 120px;
+	top: 28px;
+	opacity : 0.5;
+}
+#selmimg
+{
+	width : 1050px;
+	height : 180px;
+	position : relative;
+	border-radius : 30px;
+	left : 120px;
+	top: 28px;
+}
+
+.sellink
+{
+	font-size : 70px;
+	z-index : 1;
+	color : black;
+}
+#sellink1
+{
+	position : relative;
+	left : 450px;
+	top: 85px;
+}
+#sellink2
+{
+	position : relative;
+	left : 80px;
+	top: 385px;
+}
+#seltimg
+{
+	position : absolute;
+	top : 300px;
+	width : 1460px;
+	height : 110px;
+	left : 30px;
+}
+#footsel
+{
+   left: 0px;
+   width: 1540px;
+   top : 1300px;
+   text-align : bottom;
+   position: absolute;     
+   background-color: #CC9900;
+   height:80px;
+   clear : both;
+   margin-top: -100px;
+   margin-left :-8px;
+   margin-right : -80px; 
+}
+
+
